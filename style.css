@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+}
+#master_container {
+  background-color: hsl(229, 57%, 11%);
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+}
+#files_container {
+  background-color: hsl(226, 56%, 26%);
+  width: 20rem;
+  height: 10rem;
+  top: 40%;
+  left: 25%;
+  position: absolute;
+  border-radius: 1rem 5rem 1rem 1rem;
+}
+#doc_img_container {
+  background-color: hsl(229, 57%, 11%);
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  top: 5rem;
+  left: 2rem;
+  border-radius: 0.5rem;
+}
+#folder_img_container {
+  background-color: hsl(229, 57%, 11%);
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 5rem;
+  left: 6rem;
+  border-radius: 0.5rem;
+}
+#upload_img_container {
+  background-color: hsl(229, 57%, 11%);
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 5rem;
+  left: 10rem;
+  border-radius: 0.5rem;
+}
+
+#storage_container {
+  background-color: hsl(226, 56%, 26%);
+  width: 30rem;
+  height: 10rem;
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  border-radius: 1rem;
+}
+
+#remaining_container {
+  background-color: white;
+  width: 12rem;
+  height: 5rem;
+  position: absolute;
+  top: 32%;
+  right: 23%;
+  border-radius: 1rem;
+}
+
+#remaining_container_triangle {
+  background-color: rgb(151, 36, 65);
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  left: 0;
+  right: 25%;
+  bottom: -40px;
+  top: 90%;
+}
+.doc_img {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+.folder_img {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.bgimg {
+  background-color: hsl(229, 57%, 11%);
+  width: 100%;
+  top: 50%;
+  position: absolute;
+  border-top-left-radius: 15rem;
+}
+
+.upload_img {
+  background-color: hsl(229, 57%, 11%);
+  top: 35%;
+  left: 25%;
+  position: relative;
+  border-top-left-radius: 15rem;
+}
+
+.logo_img {
+  left: 10%;
+  top: 15%;
+  position: absolute;
+}
+
+.status_bar {
+  background-color: hsl(229, 57%, 11%);
+  height: 1rem;
+  width: 80%;
+  top: 45%;
+  left: 10%;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.status_bar_gradient {
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  height: 0.7rem;
+  width: 67%;
+  top: 15%;
+  position: relative;
+  border-radius: 0.5rem;
+}
+
+.status_bar_circle {
+  background-color: hsl(243, 100%, 93%);
+  height: 0.68rem;
+  width: 0.68rem;
+  top: 16%;
+  right: 32%;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.usage_text {
+  color: hsl(243, 100%, 93%);
+  top: 30%;
+  left: 10%;
+  position: absolute;
+}
+.storage_remain {
+  color: hsl(243, 100%, 93%);
+  top: 30%;
+  right: 10%;
+  position: absolute;
+}
+
+.storage_min {
+  color: hsl(243, 100%, 93%);
+  top: 56%;
+  left: 10%;
+  position: absolute;
+}
+
+.storage_max {
+  color: hsl(243, 100%, 93%);
+  top: 56%;
+  right: 10.5%;
+  position: absolute;
+}
+.storage_number {
+}
+
+.storage_words {
+}
